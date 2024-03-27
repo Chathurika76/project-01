@@ -17,14 +17,13 @@
         
     }
     
-    .navbar {
+    navbar {
         
         width: 1200px;
         height: 75px;
         margin:auto;
         color: #fff;
         display: flex;
-        
     }
     
 
@@ -34,27 +33,36 @@
         margin-left: 40px;
     }
     
-    .nav{
+    nav{
         flex: 1;
-        text-align: right;
+        text-align:left;
+        flex-direction: row;
+        display: flex;
+        padding: 1rem 3rem;
+        justify-content:space-between;
+        align-items:center;
+        
     }
-    .menu{
+    menu{
         width:400px;
         float:left;
         height:70px;
     }
     
-    .nav ul li{
+     ul{
         list-style: none;
-        display:inline;
-        margin-right: 60px;
-        float: left;
+        display:flex;
+        margin-right:40px;
+        flex-direction: row;
+        gap: 3rem;
+        text-align: left;
+    
     }
 
-    .nav ul li a{
+     ul li a{
         text-decoration: none;
         color: #fff;
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .row{
@@ -67,15 +75,15 @@
         flex-basis: 50%;
     }
 
-    .h1{
+    h1{
         color: #f5eded;
-        font-size:180px;
+        font-size:40px;
     }
 
-    .p{
+    p{
         color: #fff;
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 17px;
+        line-height: 25px;
     }
     .card{
         width: 200px;
