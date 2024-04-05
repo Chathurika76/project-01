@@ -14,10 +14,11 @@
          padding-left: 8%;
          padding-right: 8%;
          box-sizing: border-box;
+        animation: change 10s infinite ease-in;
         
     }
     
-    navbar {
+    .navbar {
         
         width: 1200px;
         height: 75px;
@@ -100,7 +101,7 @@
         transition: transform 0.5s;
     }
     .card1{
-        background-image: url(images/pic2.jpg);
+        background-image:url(images/pic2.jpg);
     }
     .card2{
         background-image: url(images/download.jpg);
@@ -116,4 +117,65 @@
     }
     .card p{
         text-shadow: 0 0 5px #000;
+    }
+
+    @keyframes change{
+       
+        0%
+        {
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/colombo5.jpg);
+        }
+        40%
+        {
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/colombo.jpg);
+        }
+        80%
+        {
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/images.jpg);
+        }
+        100%
+        {
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/download.jpg);
+        }
+
+    }
+    
+    .History{
+        margin-top: 30px;
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        background-color: rgb(17, 17, 16);
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    button{
+        padding: 15px 50px;
+        border-radius: 100px;
+        border: none;
+        background-color: #f5eded;
+        font-size: 20px;
+    }
+
+    .button-new{
+          background-color: #fff;
+          border: 2px soild black;
+    }
+
+    .history-h1{
+        font-size: 40px;
+        color: #000;
+        text-align: center;
+    }
+
+    p{
+        
+        font-size: 17px;
+        line-height: 20px;
     }
