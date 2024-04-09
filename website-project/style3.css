@@ -6,7 +6,7 @@
 }
 
 body{
-      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic11.jpg);
+      background-color: #130e0e;
       background-size: cover;
 }
     
@@ -58,29 +58,9 @@ ul{
     font-size: 20px;
 }
 
-h{
-    font-size: 50px;
-    text-align: center;
-    color: #fff;
-}
-
-h1{
-    font-size: 40px;
+.h{
+    font-size: 60px;
+    font-weight: 400;
     font-style: italic;
-    color: red;
-}
-
-p{
-    font-size: 20px;
-    font-style:normal;
-    color: antiquewhite;
-    text-align: justify;
-}
-
-footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #140c0c;
-    padding: 10px;
+    color:#fff;
 }
