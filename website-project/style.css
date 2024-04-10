@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     font-size: "Roboto",sans-serif;
+    box-sizing: border-box;
     
     }
     
@@ -38,8 +39,8 @@
         flex: 1;
         text-align:left;
         flex-direction: row;
-        display: flex;
-        padding: 1rem 3rem;
+        display:flex;
+        padding: 3rem 2 rem;
         justify-content:space-between;
         align-items:center;
         
