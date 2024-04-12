@@ -103,14 +103,14 @@ ul{
     padding-left: 10px;
     outline: none;
     border: none;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
     background: none;
-    border-bottom: 2px soild #fff;
+    border-bottom: 2px soild #8f8181;
 }
 
 .container form input::placeholder{
-    color: #fff;
+    color: #d8cccc;
 }
 
 .container form #lastname,
