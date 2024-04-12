@@ -9,7 +9,21 @@ body{
       background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic11.jpg);
       background-size: cover;
 }
+   
+
+
+header,footer{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+}
+
+header{
+    height: 10vh;
+}
     
+
 .navbar {
         
     width: 1200px;
@@ -56,6 +70,7 @@ ul{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+
 }
 
 h{
